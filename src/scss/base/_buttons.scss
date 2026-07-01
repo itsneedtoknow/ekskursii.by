@@ -1,0 +1,49 @@
+@import "vars";
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 18px;
+  color: $color-bg;
+  border: 2px solid;
+  transition: ease 0.4s;
+  outline: none;
+  &:focus-visible {
+    box-shadow: 0 0 0 3px rgba($color-main, 0.5);
+  }
+  &--primary {
+    background-color: $color-accent;
+    border-color: $color-accent;
+    padding: 8px 34px;
+    &--light {
+      font-weight: 400;
+      padding: 4px 10px;
+      font-size: 14px;
+    }
+    &:hover {
+      background-color: $color-bg;
+      color: $color-accent;
+    }
+  }
+  &--secondary {
+    background-color: $color-main;
+    padding: 4px 72px;
+    border: 1px solid $color-main;
+    &:hover {
+      background-color: $color-bg;
+      color: $color-main;
+    }
+  }
+  &--tertiary {
+    background-color: $color-main;
+    padding: 3px 6px;
+    border-color: $color-accent;
+    border-radius: 3px;
+    font-size: 14px;
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+}
