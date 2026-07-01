@@ -17,6 +17,7 @@
     background-color: $color-accent;
     border-color: $color-accent;
     padding: 8px 34px;
+    text-transform: uppercase;
     &--light {
       font-weight: 400;
       padding: 4px 10px;
@@ -42,6 +43,7 @@
     border-color: $color-accent;
     border-radius: 3px;
     font-size: 14px;
+    text-transform: uppercase;
     &:hover {
       background-color: $color-accent;
     }

@@ -25,6 +25,11 @@ body {
   background-color: $color-bg;
   color: $color-dark;
   font-family: "Poppins", sans-serif;
+  &.no-scroll {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+  }
 }
 .container {
   max-width: 1440px;
@@ -32,6 +37,7 @@ body {
   margin: 0 auto;
   padding: 0 80px;
   display: flex;
+  transition: $transition-basic;
 }
 
 main {
@@ -78,4 +84,15 @@ ol {
 *:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 4px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+}
+@media (max-width: $breakpoint-tablet) {
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    transition: $transition-basic;
+  }
 }

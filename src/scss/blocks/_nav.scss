@@ -133,6 +133,7 @@
         position: static;
         height: 0;
         padding: 0 16px;
+        transform: none;
         &__list {
           display: flex;
           flex-direction: column;
