@@ -13,7 +13,56 @@
     <title>ekskursii.by</title>
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+      <div class="container">
+        <div class="header__column header__column--left">
+          <a href="/" class="header__logo" aria-label="Ekskursii.by">
+            <img
+              src="/src/assets/images/logo.png"
+              alt="Ekskursii.by"
+              class="header__logo-image"
+            />
+          </a>
+        </div>
+        <div class="header__column header__column--right">
+          <nav class="header__nav nav" aria-label="Навигация">
+            <div class="nav__burger">
+              <img src="./src/assets/icons/burger.svg" alt="menu" />
+            </div>
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Программа</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Расписание</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Отзывы</a>
+              </li>
+              <li class="nav__item nav__item--dropdown">
+                <a href="#" class="nav__link">Контакты</a>
+                <div class="nav__dropdown dropdown">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <a class="nav__link" href="#">Администрация</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a class="nav__link" href="#">Отдел бронирования</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__actions">
+            <span class="header__lang-text">BYN</span>
+            <span class="header__lang-text">РУС</span>
+            <button href="#" class="btn btn--tertiary">Бронировать</button>
+          </div>
+        </div>
+      </div>
+    </header>
     <main class="main"></main>
     <footer class="footer"></footer>
     <script type="module" src="/src/js/main.js"></script>

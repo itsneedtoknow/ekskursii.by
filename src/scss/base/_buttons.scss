@@ -8,7 +8,7 @@
   font-size: 18px;
   color: $color-bg;
   border: 2px solid;
-  transition: ease 0.4s;
+  transition: $transition-basic;
   outline: none;
   &:focus-visible {
     box-shadow: 0 0 0 3px rgba($color-main, 0.5);

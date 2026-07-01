@@ -1,4 +1,7 @@
 @import "vars";
+// * {
+//   outline: 1px solid red;
+// }
 *,
 *::before,
 *::after {
@@ -25,8 +28,10 @@ body {
 }
 .container {
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 80px;
+  display: flex;
 }
 
 main {
