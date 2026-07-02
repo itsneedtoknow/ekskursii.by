@@ -66,24 +66,36 @@
                       ></a>
                     </li>
                   </ul>
-                  <!-- <ul class="dropdown__list">
-                    <li class="dropdown__item">
-                      <a class="nav__link" href="#">Администрация</a>
-                    </li>
-                    <li class="dropdown__item">
-                      <a class="nav__link" href="#">Отдел бронирования</a>
-                    </li>
-                  </ul> -->
                 </div>
               </li>
             </ul>
           </nav>
 
-          <div class="header__actions">
-            <span class="header__lang-text">BYN</span>
-            <span class="header__lang-text">РУС</span>
+          <ul class="header__actions">
+            <li class="header__select-wrapper nav__item--dropdown">
+              <span> BYN</span>
+              <ul
+                class="dropdown header__select header__select--currency"
+                aria-label="Выбор валюты"
+              >
+                <li data-currency="RUB">RUB</li>
+                <li data-currency="USD">USD</li>
+                <li data-currency="EUR">EUR</li>
+              </ul>
+            </li>
+
+            <li class="header__select-wrapper nav__item--dropdown">
+              <span>Рус</span>
+              <ul
+                class="dropdown header__select header__select--lang"
+                aria-label="Выбор языка"
+              >
+                <li data-lang="BYN">Бел</li>
+                <li data-lang="RUB">ENG</li>
+              </ul>
+            </li>
             <button href="#" class="btn btn--tertiary">Бронировать</button>
-          </div>
+          </ul>
         </div>
       </div>
     </header>
