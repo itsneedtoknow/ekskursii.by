@@ -1,0 +1,11 @@
+@mixin pseudo-icon {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
