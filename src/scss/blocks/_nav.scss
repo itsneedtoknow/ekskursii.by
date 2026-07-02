@@ -3,7 +3,6 @@
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-
   margin-left: 16px;
   &__burger {
     display: none;
@@ -86,6 +85,7 @@
     transition: $transition-basic;
     &:hover {
       color: $color-accent;
+      text-decoration: none;
     }
   }
 }

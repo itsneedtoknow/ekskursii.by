@@ -46,7 +46,6 @@ reviewCards.forEach((item) => {
   }
 });
 
-// reviewCards.forEach((item) => {
 document.body.addEventListener("click", function (e) {
   if (!e.target.closest(".review")) {
     reviewCards.forEach((card) => {
@@ -57,4 +56,3 @@ document.body.addEventListener("click", function (e) {
     });
   }
 });
-// });
