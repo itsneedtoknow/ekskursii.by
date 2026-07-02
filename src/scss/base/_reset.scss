@@ -37,6 +37,7 @@ body {
   margin: 0 auto;
   padding: 0 80px;
   display: flex;
+  flex-direction: column;
   transition: $transition-basic;
 }
 
@@ -95,4 +96,20 @@ h1 {
     font-size: 36px;
     transition: $transition-basic;
   }
+}
+h2,
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 650px;
+  margin: 0 auto;
+  color: $color-dark;
+  text-align: center;
+  margin: 30px auto;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: stretch;
 }
